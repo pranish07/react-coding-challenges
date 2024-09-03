@@ -59,7 +59,7 @@ export const PasswordStrengthChecker = () => {
     <section className="password-section">
       <h1 className="password-heading">Password Strength Checker</h1>
       <input
-        type="password"
+        type="text"
         value={password}
         onChange={handlePasswordChange}
         className="password-input-text"
